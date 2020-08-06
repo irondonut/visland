@@ -1,0 +1,22 @@
+#canvas {
+    width: calc(35 * 32px);
+    height: calc(19 * 32px);
+    background-color: #505050;
+    content: "";
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+  }
+  .user {
+    position: absolute;
+    left: calc(17 * 32px);
+    top: calc(9 * 32px);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #FFF;
+    content: "";
+  }
+  .player {
+    background: cyan;
+  }

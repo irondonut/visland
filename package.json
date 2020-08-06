@@ -1,0 +1,23 @@
+{
+  "name": "visland",
+  "version": "0.0.1",
+  "description": "Server: Virtual island running on node.js and socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irondonut/visland.git"
+  },
+  "author": "David Hong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/irondonut/visland/issues"
+  },
+  "homepage": "https://github.com/irondonut/visland#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
